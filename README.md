@@ -6,6 +6,10 @@
 
 ## Tecnologías
 - React.js
+- HTML
+- CSS
+- Iconos
+    - `npm install react-icons --save`
 
 ### Herramientas
 - Visual Studio Code
