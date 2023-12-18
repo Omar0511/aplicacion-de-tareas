@@ -32,3 +32,23 @@ body {
     height: 200px;
 }
 
+.tareas-lista-principal h1 {
+    color: #1b1b32;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.tareas-lista-principal {
+    width: 600px;
+    height: 500px;
+    background-color: #d0d0d5;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 26px;
+    -webkit-border-radius: 26px;
+    -moz-border-radius: 26px;
+    -ms-border-radius: 26px;
+    -o-border-radius: 26px;
+}
