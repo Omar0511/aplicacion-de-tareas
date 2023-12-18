@@ -81,12 +81,13 @@ body {
     overflow-wrap: anywhere;
 }
 
-.tarea-contenedor-icono {
-    
-}
-
 .tarea-icono {
     width: 25px;
     height: 25px;
     margin: 5px;
+}
+
+.tarea-contenedor.completada {
+    background-color: #5a01a7;
+    text-decoration: line-through;
 }
