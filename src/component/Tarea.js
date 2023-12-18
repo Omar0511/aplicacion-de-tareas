@@ -14,7 +14,6 @@ function Tarea( { texto, completada } )
                 <AiOutlineCloseCircle className='tarea-icono' />
             </div>
         </div>
-
     );
 }
 

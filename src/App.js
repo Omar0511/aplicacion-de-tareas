@@ -1,5 +1,5 @@
 import './App.css';
-import Tarea from './component/Tarea';
+import ListaTarea from './component/ListaTarea';
 import Logo from './img/dos.png';
 
 function App() {
@@ -14,7 +14,8 @@ function App() {
 
       <div className='tareas-lista-principal'>
         <h1>Mis tareas</h1>
-        <Tarea texto='Aprendiendo REACT' />
+
+        <ListaTarea />
       </div>
     </div>
   );
