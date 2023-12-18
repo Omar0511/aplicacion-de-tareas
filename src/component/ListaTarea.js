@@ -7,6 +7,10 @@ function ListaTarea()
 {
     const [tareas, setTareas] = useState([]);
 
+    const agregarTarea = tarea => {
+        console.log('Tarea agregada:', tarea);
+    };
+
     return (
         <>
             <TareaFormulario />
