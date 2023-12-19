@@ -14,7 +14,7 @@ function ListaTarea()
 
             const tareasActualizadas = [tarea, ...tareas];
 
-            setTareas(tareasActualizadas):
+            setTareas(tareasActualizadas);
         }
     };
 
@@ -28,7 +28,9 @@ function ListaTarea()
                     tareas.map
                     ( 
                         (tarea) => 
-                            <Tarea 
+                            <Tarea
+                                key={tarea.id}
+                                id={tarea.id}
                                 texto={tarea.texto}
                                 completada={tarea.completada}
                             />
