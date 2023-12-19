@@ -10,7 +10,7 @@
 - CSS
 - Iconos
     - `npm install react-icons --save`
-    - (React Icons)[react-icons.github.io/react-icons/]
+    - [React Icons](react-icons.github.io/react-icons/)
 - Identificadores únicos
     - uuid `npm install uuid`
 
@@ -21,7 +21,7 @@
 -
 
 ##### Sitio
-- URL (Aplicación de Tareas)[]
+- URL [Aplicación de Tareas]()
 
 ###### Notas
 - **Componente de Clase**
